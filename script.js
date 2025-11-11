@@ -1,4 +1,4 @@
-// UniHub Project Script (Improved & Centralized)
+
 // Features: Login, Register, Logout, Dashboard, Form Validation,
 // Password Strength Indicator, and Service Forms
 
@@ -186,3 +186,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
