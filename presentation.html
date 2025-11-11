@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentation Design | UniHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">UniHub</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#" id="logoutBtn">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Presentation Service -->
+  <section class="auth">
+    <div class="container auth-box">
+      <h2>🎨 Presentation Design Service</h2>
+      <p>Submit your project details and get a professional PowerPoint design.</p>
+
+      <form id="presentationForm">
+        <div class="form-control">
+          <label for="topic">Presentation Topic</label>
+          <input type="text" id="topic" placeholder="Enter your topic" required>
+        </div>
+
+        <div class="form-control">
+          <label for="details">Project Details</label>
+          <textarea id="details" placeholder="Describe your project..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Request</button>
+        <div id="formMessage"></div>
+      </form>
+      <br/>
+
+      <a href="dashboard.html" class="btn secondary">⬅ Back to Dashboard</a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 UniHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

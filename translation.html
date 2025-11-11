@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translation Service | UniHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">UniHub</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#" id="logoutBtn">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Translation Service -->
+  <section class="auth">
+    <div class="container auth-box">
+      <h2>🌍 Academic Translation Service</h2>
+      <p>Submit your text for quick and accurate translation.</p>
+
+      <form id="translationForm">
+        <div class="form-control">
+          <label for="language">Target Language</label>
+          <input type="text" id="language" placeholder="e.g., English, Arabic..." required>
+        </div>
+
+        <div class="form-control">
+          <label for="text">Text to Translate</label>
+          <textarea id="text" placeholder="Paste your text here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Request</button>
+        <div id="formMessage"></div>
+      </form>
+      <br/>
+
+      <a href="dashboard.html" class="btn secondary">⬅ Back to Dashboard</a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 UniHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

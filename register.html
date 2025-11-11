@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UniHub | Sign Up</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!--  Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">UniHub</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!--  Register Section -->
+  <section class="auth">
+    <div class="container auth-box">
+      <h2>Create Your Account 🚀</h2>
+      <p>Join UniHub and start exploring student services!</p>
+
+      <form id="registerForm">
+        <div class="form-control">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Create a password" required />
+          <div class="password-strength">
+            <div class="strength-bar"></div>
+            <span class="strength-text">Enter a password</span>
+          </div>
+        </div>
+
+        <div class="form-control">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Confirm your password" required />
+        </div>
+
+        <button type="submit" class="btn">Sign Up</button>
+
+        <p class="switch-link">
+          Already have an account? <a href="login.html">Login</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 UniHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

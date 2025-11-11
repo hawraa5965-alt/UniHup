@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Help | UniHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">UniHub</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#" id="logoutBtn">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Programming Help -->
+  <section class="auth">
+    <div class="container auth-box">
+      <h2>💻 Programming Help Service</h2>
+      <p>Need help with your code or project? Submit your request below.</p>
+
+      <form id="programmingForm">
+        <div class="form-control">
+          <label for="language">Programming Language</label>
+          <input type="text" id="language" placeholder="e.g., Python, Java, C++..." required>
+        </div>
+
+        <div class="form-control">
+          <label for="problem">Describe Your Issue</label>
+          <textarea id="problem" placeholder="Explain what you need help with..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Request</button>
+        <div id="formMessage"></div>
+      </form>
+      <br/>
+
+    <a href="dashboard.html" class="btn secondary">⬅ Back to Dashboard</a>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 UniHub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
